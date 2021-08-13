@@ -57,7 +57,7 @@ def sample_responses(input_text):
     if user_message in ("missed an exam", "skipped an exam", "I missed an exam"):
         return "Contact your respective dean for more clarification"
 
-    if user_message in ("contact", "contact information"):
+    if user_message in ("contact", "contact information", "address"):
         return "You can contact by call through; 0207252000, email; info@mmu.ac.ke, address: P.O Box 15653 - 00503"
 
     if user_message in ("faculties", "faculty", "faculties in mmu", "what faculties are in mmu?", "how many faculties"
