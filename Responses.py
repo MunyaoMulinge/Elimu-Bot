@@ -8,8 +8,8 @@ stud_leaders = ["Mama Yao - President", "Sheila Jelimo - Secretary General", "No
 def sample_responses(input_text):
     user_message = str(input_text).lower()
 
-    if user_message in ("hello", "hi", "ssup"):
-        return "Hey, How is it going?"
+    if user_message in ("hello", "hi", "ssup", "hola", "how are you?", "greetings"):
+        return "Hello, I can assist you on all matters concerning academics"
 
     if user_message in ("who are you?", "who are you"):
         return "I am Munyao's bot"
