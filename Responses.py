@@ -14,6 +14,9 @@ def sample_responses(input_text):
         now = datetime.now()
         date_time = now.strftime("%d/%m/%y, %H:%M:%S")
         return str(date_time)
+    
+    if user_message in ("fee", "fees", "finances"):
+        return "Check with the finance officer for the latest update"
 
     if user_message in ("supplementary", "supplementary exams"):
         return "The supplementary examinations will be offered on the 13th of September"
